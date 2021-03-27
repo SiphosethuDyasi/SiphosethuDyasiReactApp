@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+.form {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    
+  }
+
+
+.grid-container{
+    display: grid;
+    grid-gap: 10px;
+    padding: 10px;
+    width:500px;
+    align-items: center;
+    margin-left: 400px;
+}
+
+.heading{
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+
+.button-grid{
+    grid-column: 1 / span 2;
+    grid-row: 4;
+}
+
+.lable-email{
+    grid-column: 1 / span 1;
+    grid-row: 2;
+}
+
+.textInput-email{
+    grid-column: 2 / span 1;
+    grid-row: 2;
+}
+
+.lable-message{
+    grid-column: 1 / span 1;
+    grid-row: 3;
+}
+
+.textInput-message{
+    grid-column: 2 / span 1;
+    grid-row: 3;
+}
+
+.textInput{
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+.textInputs{
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+.buttons{
+    width:50%;
+    height: 30px;
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
